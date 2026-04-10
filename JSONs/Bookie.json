@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "id": "doc_id_citizen",
+      "type": "IdCard",
+      "title": "Identity Card",
+      "contentTemplate": "",
+      "shownFields": ["Name", "Country", "DOB", "Sex", "City"]
+    },
+    {
+      "id": "doc_passport",
+      "type": "Passport",
+      "title": "Passport",
+      "contentTemplate": "",
+      "shownFields": ["Name", "Country", "DOB", "Expiration"]
+    },
+    {
+      "id": "doc_work_01",
+      "type": "WorkPermit",
+      "title": "Work Permit",
+      "contentTemplate": "",
+      "shownFields": ["Name", "Job", "Expiration"]
+    }
+  ]
+}
